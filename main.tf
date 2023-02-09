@@ -27,6 +27,6 @@ resource "azurerm_linux_web_app" "example" {
       python_version = "3.9"
     }
     minimum_tls_version = var.min_tls_version
-    http2_enabled       = true
+    http2_enabled       = false
   }
 }
